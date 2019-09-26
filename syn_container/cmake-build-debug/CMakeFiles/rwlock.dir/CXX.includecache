@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/dev/work/rwlock/CondQueue.h
+queue
+-
+condition_variable
+-
+mutex
+-
+
+E:/dev/work/rwlock/testsynqueue.cpp
+iostream
+-
+CondQueue.h
+E:/dev/work/rwlock/CondQueue.h
+Windows.h
+-
+thread
+-
+
